@@ -64,7 +64,7 @@
                             "as": "season_visits"
                         }
                     ],
-                    "groupby": ["Name", "Latitude", "Longitude", "Season", "Year"]
+                    "groupby": ["ShortName", "Latitude", "Longitude", "Season", "Year"]
                 },
                 {"filter": "datum.Year == year_selection"},
                 {"filter": "datum.Season == season_selection"}
@@ -130,7 +130,7 @@
                     "value": 0
                 },
                 "tooltip": [
-                    {"field": "Name"},
+                    {"field": "ShortName", "title": "Park"},
                     {"field": "Year"},
                     {"field": "Season"},
                     {

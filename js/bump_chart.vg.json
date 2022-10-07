@@ -44,6 +44,6 @@
       "condition": {"param": "park_select", "value": 1},
       "value": 0.2
     },
-    "tooltip": [{"field": "Name"}, {"field": "Year"}, {"field": "Rank"}]
+    "tooltip": [{"field": "ShortName", "title": "Park"}, {"field": "Year"}, {"field": "Rank"}]
   }
 }
