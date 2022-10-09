@@ -14,7 +14,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkRanks.csv"
   },
-  "mark": {"type": "line", "point": true, "size": 2},
+  "mark": {"type": "line", "point": {"size": 100}, "size": 3},
   "encoding": {
     "x": {
       "field": "Date",
@@ -44,6 +44,11 @@
       "condition": {"param": "park_select", "value": 1},
       "value": 0.2
     },
-    "tooltip": [{"field": "ShortName", "title": "Park"}, {"field": "Year"}, {"field": "Rank"}]
+    "tooltip": [
+      {"field": "ShortName", "title": "Park"},
+      {"field": "Year"}, 
+      {"field": "Rank"},
+      {"field": "Recreation Visits", "title": "Visitors", "format": ".2s"}
+    ]
   }
 }

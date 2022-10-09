@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Seasonal comparison of visitors",
+  "title": "Seasonal comparison of visitors in 2021",
   "repeat": ["Summer", "Autumn", "Winter", "Spring"],
   "columns": 2,
   "spec": {
@@ -10,19 +10,25 @@
     "layer": [
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/js/ne_50m_admin_1_states_provinces.json",
-          "format": {
-            "type": "topojson",
-            "feature": "ne_50m_admin_1_states_provinces"
-          }
+            "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/js/ne_50m_admin_1_states_provinces.json",
+            "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
         },
-        "mark": {"type": "geoshape", "fill": "#f0f2f5", "stroke": "darkgrey"}
+        "mark": {
+            "type": "geoshape",
+            "fill": "#f0f2f5",
+            "stroke": "darkgrey"
+        }
       },
       {
-        "data": {
-          "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeason.csv"
-        },
-        "mark": {"type": "circle"},
+        "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeason.csv"},
+        "mark": {"type": "circle", "stroke": "black"},
+        "params": [
+          {
+            "name": "highlight",
+            "select": {"type": "point", "on": "mouseover"}
+          },
+          {"name": "select", "select": "point"}
+        ],
         "encoding": {
           "latitude": {"field": "Latitude", "type": "quantitative"},
           "longitude": {"field": "Longitude", "type": "quantitative"},
@@ -36,7 +42,27 @@
             },
             "legend": {"format": ".2s"},
             "title": "Visitors"
-          }
+          },
+          "color": {
+            "type": "nominal", 
+            "datum": {"repeat": "repeat"},
+            "scale": {
+              "domain": ["Summer", "Autumn", "Winter", "Spring"],
+              "range": ["#eb6a57", "#916c4c", "#69a2c7", "lightseagreen"]},
+            "legend": null
+          },
+          "strokeWidth": {
+            "condition": {
+                "param": "select",
+                "empty": false,
+                "value": 1.5
+              },
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "ShortName", "title": "Park"},
+            {"field": {"repeat": "repeat"}, "format": ".2s"}
+          ]
         }
       },
       {

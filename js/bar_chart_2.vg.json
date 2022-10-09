@@ -18,7 +18,7 @@
       "y": {"field": "VehicleFee", "type": "quantitative", "title": "Entrance fee"},
       "tooltip": [
         {"field": "ShortName", "title": "Park"},
-        {"field": "VehicleFee", "title": "Entrance fee", "format": "$.0f"}
+        {"field": "VehicleFee", "title": "Fee", "format": "$.0f"}
       ],
       "color": {
         "condition": {
