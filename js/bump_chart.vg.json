@@ -46,6 +46,7 @@
     },
     "tooltip": [
       {"field": "ShortName", "title": "Park"},
+      {"field": "Region"},
       {"field": "Year"}, 
       {"field": "Rank"},
       {"field": "Recreation Visits", "title": "Visitors", "format": ".2s"}
