@@ -26,7 +26,7 @@
     "y": {
       "field": "Rank",
       "type": "quantitative",
-      "title": "Rank (based on visitors)",
+      "title": "Visitor rank",
       "sort": "descending",
       "scale": {"domain": [1, 13]},
       "axis": {"grid": false}
