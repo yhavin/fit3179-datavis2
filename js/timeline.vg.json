@@ -10,7 +10,7 @@
       {
         "mark": {"type": "bar", "width": 3, "color": "#666666"},
         "encoding": {
-          "x": {"field": "Inception", "type": "temporal", "timeUnit": "year", "title": "Year of inception", "scale": {"domain": [1870, 1933]}},
+          "x": {"field": "Inception", "type": "temporal", "timeUnit": "year", "title": "Year of inception", "scale": {"domain": [1830, 1995]}},
           "y": {"field": "Value", "type": "quantitative", "scale": {"domain": [0, 75]}, "axis": null},
           "tooltip": [
             {"field": "ShortName", "title": "Park"},
