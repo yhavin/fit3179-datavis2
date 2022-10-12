@@ -1,8 +1,8 @@
 ﻿Park,Name,ShortName,Unit Code,Park Type,Region,StateAbbr,State,Latitude,Longitude,Inception,Value
 Hot Springs NP,Hot Springs National Park,Hot Springs,HOSP,National Park,Midwest ,AR,Arkansas,34.51,-93.05,1832,50
 Yellowstone NP,Yellowstone National Park,Yellowstone,YELL,National Park,Intermountain ,WY,Wyoming,44.6,-110.5,1872,50
-Kings Canyon NP,Kings Canyon National Park,Kings Canyon,KICA,National Park,Pacific West ,CA,California,36.8,-118.55,1890,25
-Sequoia NP,Sequoia National Park,Sequoia,SEQU,National Park,Pacific West ,CA,California,36.43,-118.68,1890,25
+Kings Canyon NP,Kings Canyon National Park,Kings Canyon,KICA,National Park,Pacific West ,CA,California,36.8,-118.55,1890,30
+Sequoia NP,Sequoia National Park,Sequoia,SEQU,National Park,Pacific West ,CA,California,36.43,-118.68,1890,20
 Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,California,37.83,-119.5,1890,15
 Mount Rainier NP,Mount Rainier National Park,Mount Rainier,MORA,National Park,Pacific West ,WA,Washington,46.85,-121.75,1899,50
 Crater Lake NP,Crater Lake National Park,Crater Lake,CRLA,National Park,Pacific West ,OR,Oregon,42.94,-122.1,1902,50
