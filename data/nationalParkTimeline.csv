@@ -1,9 +1,9 @@
 ﻿Park,Name,ShortName,Unit Code,Park Type,Region,StateAbbr,State,Latitude,Longitude,RealInception,SpacedInception,Value
 Hot Springs NP,Hot Springs National Park,Hot Springs,HOSP,National Park,Midwest ,AR,Arkansas,34.51,-93.05,1832,1832,50
 Yellowstone NP,Yellowstone National Park,Yellowstone,YELL,National Park,Intermountain ,WY,Wyoming,44.6,-110.5,1872,1872,50
-Kings Canyon NP,Kings Canyon National Park,Kings Canyon,KICA,National Park,Pacific West ,CA,California,36.8,-118.55,1890,1890,30
-Sequoia NP,Sequoia National Park,Sequoia,SEQU,National Park,Pacific West ,CA,California,36.43,-118.68,1890,1891,20
-Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,California,37.83,-119.5,1890,1892,15
+Kings Canyon NP,Kings Canyon National Park,Kings Canyon,KICA,National Park,Pacific West ,CA,California,36.8,-118.55,1890,1890,65
+Sequoia NP,Sequoia National Park,Sequoia,SEQU,National Park,Pacific West ,CA,California,36.43,-118.68,1890,1891,40
+Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,California,37.83,-119.5,1890,1892,20
 Mount Rainier NP,Mount Rainier National Park,Mount Rainier,MORA,National Park,Pacific West ,WA,Washington,46.85,-121.75,1899,1899,50
 Crater Lake NP,Crater Lake National Park,Crater Lake,CRLA,National Park,Pacific West ,OR,Oregon,42.94,-122.1,1902,1902,50
 Wind Cave NP,Wind Cave National Park,Wind Cave,WICA,National Park,Midwest ,SD,South Dakota,43.57,-103.48,1903,1903,30
@@ -17,26 +17,26 @@ Acadia NP,Acadia National Park,Acadia,ACAD,National Park,Northeast ,ME,Maine,44.
 Grand Canyon NP,Grand Canyon National Park,Grand Canyon,GRCA,National Park,Intermountain ,AZ,Arizona,36.06,-112.14,1919,1919,30
 Zion NP,Zion National Park,Zion,ZION,National Park,Intermountain ,UT,Utah,37.3,-113.05,1909,1909,15
 Great Basin NP,Great Basin National Park,Great Basin,GRBA,National Park,Pacific West ,NV,Nevada,38.98,-114.3,1922,1922,65
-Bryce Canyon NP,Bryce Canyon National Park,Bryce Canyon,BRCA,National Park,Intermountain ,UT,Utah,37.57,-112.18,1923,1923,25
-Great Smoky Mountains NP,Great Smoky Mountains National Park,Great Smoky Mountains,GRSM,National Park,Southeast ,TN,Tennessee,35.68,-83.53,1926,1926,25
-Shenandoah NP,Shenandoah National Park,Shenandoah,SHEN,National Park,Northeast ,VA,Virginia,38.53,-78.35,1926,1927,25
-Arches NP,Arches National Park,Arches,ARCH,National Park,Intermountain ,UT,Utah,38.68,-109.57,1929,1928,25
-Grand Teton NP,Grand Teton National Park,Grand Teton,GRTE,National Park,Intermountain ,WY,Wyoming,43.73,-110.8,1929,1929,25
+Bryce Canyon NP,Bryce Canyon National Park,Bryce Canyon,BRCA,National Park,Intermountain ,UT,Utah,37.57,-112.18,1923,1923,65
+Great Smoky Mountains NP,Great Smoky Mountains National Park,Great Smoky Mountains,GRSM,National Park,Southeast ,TN,Tennessee,35.68,-83.53,1926,1926,50
+Shenandoah NP,Shenandoah National Park,Shenandoah,SHEN,National Park,Northeast ,VA,Virginia,38.53,-78.35,1926,1927,30
+Arches NP,Arches National Park,Arches,ARCH,National Park,Intermountain ,UT,Utah,38.68,-109.57,1929,1928,15
+Grand Teton NP,Grand Teton National Park,Grand Teton,GRTE,National Park,Intermountain ,WY,Wyoming,43.73,-110.8,1929,1929,65
 Isle Royale NP,Isle Royale National Park,Isle Royale,ISRO,National Park,Midwest ,MI,Michigan,48.1,-88.55,1931,1930,50
-Great Sand Dunes NP & PRES,Great Sand Dunes National Park,Great Sand Dunes,GRSA,National Park,Intermountain ,CO,Colorado,37.73,-105.51,1932,1931,65
+Great Sand Dunes NP & PRES,Great Sand Dunes National Park,Great Sand Dunes,GRSA,National Park,Intermountain ,CO,Colorado,37.73,-105.51,1932,1931,30
 Death Valley NP,Death Valley National Park,Death Valley,DEVA,National Park,Pacific West ,CA,California,36.24,-116.82,1933,1932,15
-Saguaro NP,Saguaro National Park,Saguaro,SAGU,National Park,Intermountain ,AZ,Arizona,32.25,-110.5,1933,1933,15
-Everglades NP,Everglades National Park,Everglades,EVER,National Park,Southeast ,FL,Florida,25.32,-80.93,1934,1934,65
-Big Bend NP,Big Bend National Park,Big Bend,BIBE,National Park,Intermountain ,TX,Texas,29.25,-103.25,1935,1935,50
-Joshua Tree NP,Joshua Tree National Park,Joshua Tree,JOTR,National Park,Pacific West ,CA,California,33.79,-115.9,1936,1936,30
-Capitol Reef NP,Capitol Reef National Park,Capitol Reef,CARE,National Park,Intermountain ,UT,Utah,38.2,-111.17,1937,1937,15
+Saguaro NP,Saguaro National Park,Saguaro,SAGU,National Park,Intermountain ,AZ,Arizona,32.25,-110.5,1933,1933,65
+Everglades NP,Everglades National Park,Everglades,EVER,National Park,Southeast ,FL,Florida,25.32,-80.93,1934,1934,50
+Big Bend NP,Big Bend National Park,Big Bend,BIBE,National Park,Intermountain ,TX,Texas,29.25,-103.25,1935,1935,30
+Joshua Tree NP,Joshua Tree National Park,Joshua Tree,JOTR,National Park,Pacific West ,CA,California,33.79,-115.9,1936,1936,15
+Capitol Reef NP,Capitol Reef National Park,Capitol Reef,CARE,National Park,Intermountain ,UT,Utah,38.2,-111.17,1937,1937,65
 Badlands NP,Badlands National Park,Badlands,BADL,National Park,Midwest ,SD,South Dakota,43.75,-102.5,1939,1939,50
-Gateway Arch NP,Gateway Arch National Park,Gateway Arch,JEFF,National Park,Midwest ,MO,Missouri,38.63,-90.19,1947,1947,25
-Theodore Roosevelt NP,Theodore Roosevelt National Park,Theodore Roosevelt,THRO,National Park,Midwest ,ND,North Dakota,46.97,-103.45,1947,1948,25
+Gateway Arch NP,Gateway Arch National Park,Gateway Arch,JEFF,National Park,Midwest ,MO,Missouri,38.63,-90.19,1947,1947,50
+Theodore Roosevelt NP,Theodore Roosevelt National Park,Theodore Roosevelt,THRO,National Park,Midwest ,ND,North Dakota,46.97,-103.45,1947,1948,30
 Canyonlands NP,Canyonlands National Park,Canyonlands,CANY,National Park,Intermountain ,UT,Utah,38.2,-109.93,1964,1964,50
-Guadalupe Mountains NP,Guadalupe Mountains National Park,Guadalupe Mountains,GUMO,National Park,Intermountain ,TX,Texas,31.92,-104.87,1966,1966,50
-North Cascades NP,North Cascades National Park,North Cascades,NOCA,National Park,Pacific West ,WA,Washington,48.7,-121.2,1968,1968,15
-Redwood NP,Redwood National Park,Redwood,REDW,National Park,Pacific West ,CA,California,41.3,-124,1968,1969,15
+Guadalupe Mountains NP,Guadalupe Mountains National Park,Guadalupe Mountains,GUMO,National Park,Intermountain ,TX,Texas,31.92,-104.87,1966,1966,30
+North Cascades NP,North Cascades National Park,North Cascades,NOCA,National Park,Pacific West ,WA,Washington,48.7,-121.2,1968,1968,50
+Redwood NP,Redwood National Park,Redwood,REDW,National Park,Pacific West ,CA,California,41.3,-124,1968,1969,30
 Voyageurs NP,Voyageurs National Park,Voyageurs,VOYA,National Park,Midwest ,MN,Minnesota,48.5,-92.88,1971,1971,50
 Cuyahoga Valley NP,Cuyahoga Valley National Park,Cuyahoga Valley,CUVA,National Park,Midwest ,OH,Ohio,41.24,-81.55,1975,1975,50
 Congaree NP,Congaree National Park,Congaree,CONG,National Park,Southeast ,SC,South Carolina,33.78,-80.78,1976,1976,30

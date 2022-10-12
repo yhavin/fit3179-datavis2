@@ -10,7 +10,7 @@
     {
       "mark": {"type": "bar", "width": 1.5, "color": "#666666"},
       "encoding": {
-        "x": {"field": "Inception", "type": "temporal", "timeUnit": "year", "title": "Year of inception", "scale": {"domain": [1830, 1995]}, "axis": {"grid": false}},
+        "x": {"field": "SpacedInception", "type": "temporal", "timeUnit": "year", "title": "Year of inception", "scale": {"domain": [1830, 1995]}, "axis": {"grid": false}},
         "y": {
           "field": "Value", 
           "type": "quantitative", 
@@ -22,7 +22,7 @@
         },
         "tooltip": [
           {"field": "ShortName", "title": "Park"},
-          {"field": "Inception", "timeUnit": "year", "title": "Inception"}
+          {"field": "RealInception", "timeUnit": "year", "title": "Inception"}
         ]
       }
     },
@@ -37,7 +37,7 @@
       },
       "encoding": {
         "x": {
-          "field": "Inception",
+          "field": "SpacedInception",
           "type": "temporal",
           "timeUnit": "year"
         },
@@ -47,7 +47,7 @@
           {"field": "ShortName", "title": "Park"},
           {"field": "State"},
           {"field": "Region"},
-          {"field": "Inception", "timeUnit": "year", "title": "Inception"}
+          {"field": "RealInception", "timeUnit": "year", "title": "Inception"}
         ]
       }
     }
