@@ -28,7 +28,7 @@
         "param": "region_select",
         "field": "Region",
         "type": "nominal",
-        "title": "Region (click to highlight)"
+        "title": "Region"
       },
       "value": "lightgrey"
     },

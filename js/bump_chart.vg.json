@@ -36,7 +36,7 @@
         "param": "park_select",
         "field": "ShortName",
         "type": "nominal",
-        "title": "Park (click to highlight)"
+        "title": "Park"
       },
       "value": "grey"
     },

@@ -21,7 +21,7 @@
       },
       {
         "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeasonAvg.csv"},
-        "mark": {"type": "circle", "stroke": "black", "fill": "saddlebrown"},
+        "mark": {"type": "circle", "stroke": "black", "fill": "#1b9e77"},
         "params": [
           {
             "name": "highlight",
@@ -62,7 +62,7 @@
           "fill": {
             "condition": {
               "param": "select",
-              "value": "saddlebrown"
+              "value": "#1b9e77"
             },
             "value": "grey"
           },
