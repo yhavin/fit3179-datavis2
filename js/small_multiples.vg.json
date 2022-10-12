@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Seasonal comparison of visitors in 2021",
+  "title": {"text": "Seasonal comparison of visitors", "dx": 300},
   "repeat": ["Summer", "Autumn", "Winter", "Spring"],
   "columns": 2,
   "spec": {
@@ -20,8 +20,8 @@
         }
       },
       {
-        "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeason.csv"},
-        "mark": {"type": "circle", "stroke": "black"},
+        "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeasonAvg.csv"},
+        "mark": {"type": "circle", "stroke": "black", "fill": "saddlebrown"},
         "params": [
           {
             "name": "highlight",
@@ -38,26 +38,33 @@
             "scale": {
               "type": "threshold",
               "domain": [500000, 1000000, 2000000, 3000000, 4000000],
-              "range": [30, 75, 100, 150, 225, 300]
+              "range": [30, 75, 150, 250, 350, 500]
             },
             "legend": {"format": ".2s"},
             "title": "Visitors"
-          },
-          "color": {
-            "type": "nominal", 
-            "datum": {"repeat": "repeat"},
-            "scale": {
-              "domain": ["Summer", "Autumn", "Winter", "Spring"],
-              "range": ["#eb6a57", "#916c4c", "#69a2c7", "lightseagreen"]},
-            "legend": null
           },
           "strokeWidth": {
             "condition": {
                 "param": "select",
                 "empty": false,
-                "value": 1.5
+                "value": 2
               },
             "value": 0
+          },
+          "fillOpacity": {
+            "condition": {
+              "param": "select",
+              "empty": true,
+              "value": 1
+            },
+            "value": 0.6
+          },
+          "fill": {
+            "condition": {
+              "param": "select",
+              "value": "saddlebrown"
+            },
+            "value": "grey"
           },
           "tooltip": [
             {"field": "ShortName", "title": "Park"},

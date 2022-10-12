@@ -6,7 +6,7 @@
   "params": [
     {
       "name": "park_select",
-      "select": {"type": "point", "fields": ["Name"]},
+      "select": {"type": "point", "fields": ["ShortName"]},
       "bind": "legend"
     },
     {"name": "hover", "select": {"type": "point", "on": "mouseover"}}
@@ -34,7 +34,7 @@
     "color": {
       "condition": {
         "param": "park_select",
-        "field": "Name",
+        "field": "ShortName",
         "type": "nominal",
         "title": "Park (click to highlight)"
       },
