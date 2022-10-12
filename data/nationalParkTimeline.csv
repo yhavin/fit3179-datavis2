@@ -7,8 +7,8 @@ Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,
 Mount Rainier NP,Mount Rainier National Park,Mount Rainier,MORA,National Park,Pacific West ,WA,Washington,46.85,-121.75,1899,50
 Crater Lake NP,Crater Lake National Park,Crater Lake,CRLA,National Park,Pacific West ,OR,Oregon,42.94,-122.1,1902,50
 Wind Cave NP,Wind Cave National Park,Wind Cave,WICA,National Park,Midwest ,SD,South Dakota,43.57,-103.48,1903,30
-Mesa Verde NP,Mesa Verde National Park,Mesa Verde,MEVE,National Park,Intermountain ,CO,Colorado,37.18,-108.49,1906,50
-Petrified Forest NP,Petrified Forest National Park,Petrified Forest,PEFO,National Park,Intermountain ,AZ,Arizona,35.07,-109.78,1906,30
+Mesa Verde NP,Mesa Verde National Park,Mesa Verde,MEVE,National Park,Intermountain ,CO,Colorado,37.18,-108.49,1906,25
+Petrified Forest NP,Petrified Forest National Park,Petrified Forest,PEFO,National Park,Intermountain ,AZ,Arizona,35.07,-109.78,1906,25
 Lassen Volcanic NP,Lassen Volcanic National Park,Lassen Volcanic,LAVO,National Park,Pacific West ,CA,California,40.49,-121.51,1907,15
 Pinnacles NP,Pinnacles National Park,Pinnacles,PINN,National Park,Pacific West ,CA,California,36.48,-121.16,1908,65
 Olympic NP,Olympic National Park,Olympic,OLYM,National Park,Pacific West ,WA,Washington,47.97,-123.5,1909,50
@@ -20,10 +20,10 @@ Zion NP,Zion National Park,Zion,ZION,National Park,Intermountain ,UT,Utah,37.3,-
 Great Basin NP,Great Basin National Park,Great Basin,GRBA,National Park,Pacific West ,NV,Nevada,38.98,-114.3,1922,65
 Bryce Canyon NP,Bryce Canyon National Park,Bryce Canyon,BRCA,National Park,Intermountain ,UT,Utah,37.57,-112.18,1923,25
 Carlsbad Caverns NP,Carlsbad Caverns National Park,Carlsbad Caverns,CAVE,National Park,Intermountain ,NM,New Mexico,32.17,-104.44,1923,25
-Great Smoky Mountains NP,Great Smoky Mountains National Park,Great Smoky Mountains,GRSM,National Park,Southeast ,TN,Tennessee,35.68,-83.53,1926,15
+Great Smoky Mountains NP,Great Smoky Mountains National Park,Great Smoky Mountains,GRSM,National Park,Southeast ,TN,Tennessee,35.68,-83.53,1926,30
 Indiana Dunes NP,Indiana Dunes National Park,Indiana Dunes,INDU,National Park,Midwest ,IN,Indiana,41.6533,-87.0524,1926,15
-Mammoth Cave NP,Mammoth Cave National Park,Mammoth Cave,MACA,National Park,Southeast ,KY,Kentucky,37.18,-86.1,1926,15
-Shenandoah NP,Shenandoah National Park,Shenandoah,SHEN,National Park,Northeast ,VA,Virginia,38.53,-78.35,1926,15
+Mammoth Cave NP,Mammoth Cave National Park,Mammoth Cave,MACA,National Park,Southeast ,KY,Kentucky,37.18,-86.1,1926,-15
+Shenandoah NP,Shenandoah National Park,Shenandoah,SHEN,National Park,Northeast ,VA,Virginia,38.53,-78.35,1926,-30
 Arches NP,Arches National Park,Arches,ARCH,National Park,Intermountain ,UT,Utah,38.68,-109.57,1929,25
 Grand Teton NP,Grand Teton National Park,Grand Teton,GRTE,National Park,Intermountain ,WY,Wyoming,43.73,-110.8,1929,25
 Isle Royale NP,Isle Royale National Park,Isle Royale,ISRO,National Park,Midwest ,MI,Michigan,48.1,-88.55,1931,50
