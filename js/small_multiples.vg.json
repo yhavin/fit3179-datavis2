@@ -68,6 +68,7 @@
           },
           "tooltip": [
             {"field": "ShortName", "title": "Park"},
+            {"field": "State"},
             {"field": {"repeat": "repeat"}, "title": "Visitors", "format": ".2s"}
           ]
         }
