@@ -6,12 +6,12 @@ Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,
 Mount Rainier NP,Mount Rainier National Park,Mount Rainier,MORA,National Park,Pacific West ,WA,Washington,46.85,-121.75,1899,1899,50
 Crater Lake NP,Crater Lake National Park,Crater Lake,CRLA,National Park,Pacific West ,OR,Oregon,42.94,-122.1,1902,1902,50
 Wind Cave NP,Wind Cave National Park,Wind Cave,WICA,National Park,Midwest ,SD,South Dakota,43.57,-103.48,1903,1903,30
-Mesa Verde NP,Mesa Verde National Park,Mesa Verde,MEVE,National Park,Intermountain ,CO,Colorado,37.18,-108.49,1906,1906,25
+Mesa Verde NP,Mesa Verde National Park,Mesa Verde,MEVE,National Park,Intermountain ,CO,Colorado,37.18,-108.49,1906,1906,50
 Lassen Volcanic NP,Lassen Volcanic National Park,Lassen Volcanic,LAVO,National Park,Pacific West ,CA,California,40.49,-121.51,1907,1907,15
 Pinnacles NP,Pinnacles National Park,Pinnacles,PINN,National Park,Pacific West ,CA,California,36.48,-121.16,1908,1908,65
 Olympic NP,Olympic National Park,Olympic,OLYM,National Park,Pacific West ,WA,Washington,47.97,-123.5,1909,1909,50
 Zion NP,Zion National Park,Zion,ZION,National Park,Intermountain ,UT,Utah,37.3,-113.05,1909,1909,15
-Glacier NP,Glacier National Park,Glacier,GLAC,National Park,Intermountain ,MT,Montana,48.8,-114,1910,1910,30
+Glacier NP,Glacier National Park,Glacier,GLAC,National Park,Intermountain ,MT,Montana,48.8,-114,1910,1910,50
 Rocky Mountain NP,Rocky Mountain National Park,Rocky Mountain,ROMO,National Park,Intermountain ,CO,Colorado,40.4,-105.58,1915,1915,65
 Acadia NP,Acadia National Park,Acadia,ACAD,National Park,Northeast ,ME,Maine,44.35,-68.21,1916,1916,50
 Grand Canyon NP,Grand Canyon National Park,Grand Canyon,GRCA,National Park,Intermountain ,AZ,Arizona,36.06,-112.14,1919,1919,30
@@ -29,7 +29,7 @@ Saguaro NP,Saguaro National Park,Saguaro,SAGU,National Park,Intermountain ,AZ,Ar
 Everglades NP,Everglades National Park,Everglades,EVER,National Park,Southeast ,FL,Florida,25.32,-80.93,1934,1934,50
 Big Bend NP,Big Bend National Park,Big Bend,BIBE,National Park,Intermountain ,TX,Texas,29.25,-103.25,1935,1935,30
 Joshua Tree NP,Joshua Tree National Park,Joshua Tree,JOTR,National Park,Pacific West ,CA,California,33.79,-115.9,1936,1936,15
-Capitol Reef NP,Capitol Reef National Park,Capitol Reef,CARE,National Park,Intermountain ,UT,Utah,38.2,-111.17,1937,1937,65
+Capitol Reef NP,Capitol Reef National Park,Capitol Reef,CARE,National Park,Intermountain ,UT,Utah,38.2,-111.17,1937,1937,57
 Badlands NP,Badlands National Park,Badlands,BADL,National Park,Midwest ,SD,South Dakota,43.75,-102.5,1939,1939,50
 Gateway Arch NP,Gateway Arch National Park,Gateway Arch,JEFF,National Park,Midwest ,MO,Missouri,38.63,-90.19,1947,1947,50
 Theodore Roosevelt NP,Theodore Roosevelt National Park,Theodore Roosevelt,THRO,National Park,Midwest ,ND,North Dakota,46.97,-103.45,1947,1948,30
