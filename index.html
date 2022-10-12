@@ -22,6 +22,10 @@
 <br>
 
 <div id="stacked_chart"></div>
+<br>
+<br>
+
+<div id="timeline"></div>
 
 <script type="text/javascript">
 
@@ -29,6 +33,7 @@
   var spec2 = "/js/small_multiples.vg.json"
   var spec3 = "js/bar_chart_2.vg.json"
   var spec4 = "js/stacked_chart.vg.json"
+  var spec5 = "js/timeline.vg.json"
 
   vegaEmbed('#bump_chart', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -43,6 +48,10 @@
   }).catch(console.error);
 
   vegaEmbed('#stacked_chart', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#timeline', spec5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 

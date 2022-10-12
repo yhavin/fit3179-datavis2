@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 300,
+    "title": "Timeline of park inception",
+    "data": {
+      "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkTimeline.csv"
+    },
+    "layer": [
+      {
+        "mark": {"type": "bar", "width": 3, "color": "#666666"},
+        "encoding": {
+          "x": {"field": "Inception", "type": "temporal", "timeUnit": "year", "title": "Year of inception", "scale": {"domain": [1870, 1933]}},
+          "y": {"field": "Value", "type": "quantitative", "scale": {"domain": [0, 75]}, "axis": null},
+          "tooltip": [
+            {"field": "ShortName", "title": "Park"},
+            {"field": "Inception", "timeUnit": "year", "title": "Inception"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "left",
+          "baseline": "bottom",
+          "angle": 320,
+          "dx": 5,
+          "color": "#d95f02"
+        },
+        "encoding": {
+          "x": {
+            "field": "Inception",
+            "type": "temporal",
+            "timeUnit": "year"
+          },
+          "y": {"field": "Value", "type": "quantitative", "scale": {"domain": [0, 75]}, "axis": null},
+          "text": {"field": "ShortName"},
+          "tooltip": [
+            {"field": "ShortName", "title": "Park"},
+            {"field": "Inception", "timeUnit": "year", "title": "Inception"}
+          ]
+        }
+      }
+    ]
+  }
