@@ -36,7 +36,8 @@
         "param": "park_select",
         "field": "ShortName",
         "type": "nominal",
-        "title": "Park"
+        "title": "Park",
+        "scale": {"scheme": "tableau20"}
       },
       "value": "grey"
     },
