@@ -19,7 +19,7 @@
     "x": {
       "field": "Date",
       "timeUnit": "year",
-      "title": "Year",
+      "title": "",
       "type": "temporal",
       "axis": {"tickCount": 10}
     },
