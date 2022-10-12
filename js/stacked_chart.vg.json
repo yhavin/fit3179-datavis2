@@ -6,7 +6,7 @@
     "data": {
         "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkCamping.csv"
     },
-    "mark": {"type": "bar", "width": 60},
+    "mark": {"type": "bar", "width": 60, "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
     "params": [
       {
         "name": "camping_type",

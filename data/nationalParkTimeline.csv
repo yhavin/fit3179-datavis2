@@ -1,0 +1,11 @@
+﻿Park,Name,ShortName,Unit Code,Park Type,Region,StateAbbr,State,Latitude,Longitude,Inception
+Acadia NP,Acadia National Park,Acadia,ACAD,National Park,Northeast ,ME,Maine,44.35,-68.21,1916
+Glacier NP,Glacier National Park,Glacier,GLAC,National Park,Intermountain ,MT,Montana,48.8,-114,1910
+Grand Canyon NP,Grand Canyon National Park,Grand Canyon,GRCA,National Park,Intermountain ,AZ,Arizona,36.06,-112.14,1919
+Grand Teton NP,Grand Teton National Park,Grand Teton,GRTE,National Park,Intermountain ,WY,Wyoming,43.73,-110.8,1929
+Great Smoky Mountains NP,Great Smoky Mountains National Park,Great Smoky Mountains,GRSM,National Park,Southeast ,TN,Tennessee,35.68,-83.53,1926
+Olympic NP,Olympic National Park,Olympic,OLYM,National Park,Pacific West ,WA,Washington,47.97,-123.5,1909
+Rocky Mountain NP,Rocky Mountain National Park,Rocky Mountain,ROMO,National Park,Intermountain ,CO,Colorado,40.4,-105.58,1915
+Yellowstone NP,Yellowstone National Park,Yellowstone,YELL,National Park,Intermountain ,WY,Wyoming,44.6,-110.5,1872
+Yosemite NP,Yosemite National Park,Yosemite,YOSE,National Park,Pacific West ,CA,California,37.83,-119.5,1890
+Zion NP,Zion National Park,Zion,ZION,National Park,Intermountain ,UT,Utah,37.3,-113.05,1909
