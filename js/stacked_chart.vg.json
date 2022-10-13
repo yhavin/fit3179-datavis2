@@ -1,47 +1,79 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 800,
-    "height": 300,
-    "title": "Camping styles",
-    "data": {
-        "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkCamping.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 300,
+  "title": "Camping types",
+  "data": {
+      "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkCampingLong.csv"
+  },
+  "mark": {"type": "bar", "width": 60, "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "params": [
+    {
+      "name": "camping_type",
+      "select": {"type": "point", "fields": ["Camping Type"]},
+      "bind": "legend"
     },
-    "mark": {"type": "bar", "width": 60, "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
-    "params": [
-      {
-        "name": "camping_type",
-        "select": {"type": "point", "fields": ["Camping Type"]},
-        "bind": "legend"
+    {
+      "name": "year_slider",
+      "value": 2012,
+      "bind": {
+        "input": "range",
+        "min": 2012,
+        "max": 2021,
+        "step": 1,
+        "name": "Year: "
       }
-    ],
-    "transform": [
-      {"filter": {"param": "camping_type"}}
-    ],
-    "encoding": {
-      "x": {
-        "timeUnit": "month",
-        "field": "Date",
-        "title": "Month of the year",
-        "axis": {"zindex": 0, "grid": false}
-      },
-      "y": {
-        "aggregate": "sum",
-        "field": "Campers",
-        "title": "Campers",
-        "axis": {"format": ".2s"}
-      },
-      "color": {
-        "field": "Camping Type",
-        "title": "Camping type",
-        "scale": {
-          "domain": ["Backcountry", "RV", "Tent"],
-          "range": ["#1b9e77", "#666666", "#d95f02"]
-        }
-      },
-      "tooltip": [
-        {"field": "Month", "timeUnit": "month", "format": "%B", "title": "Month"},
-        {"field": "Camping Type", "title": "Camping type"},
-        {"field": "Campers", "format": ","}
-      ]
+    },
+    {
+      "name": "park_select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Acadia", "Arches", "Badlands", "Big Bend", "Biscayne", "Black Canyon of the Gunnison", "Bryce Canyon", "Canyonlands", "Capitol Reef", "Carlsbad Caverns", "Channel Islands", "Congaree", "Crater Lake", "Cuyahoga Valley", "Death Valley", "Dry Tortugas", "Everglades", "Gateway Arch", "Glacier", "Grand Canyon", "Grand Teton", "Great Basin", "Great Sand Dunes", "Great Smoky Mountains", "Guadalupe Mountains", "Hot Springs", "Indiana Dunes", "Isle Royale", "Joshua Tree", "Kings Canyon", "Lassen Volcanic", "Mammoth Cave", "Mesa Verde", "Mount Rainier", "North Cascades", "Olympic", "Petrified Forest", "Pinnacles", "Redwood", "Rocky Mountain", "Saguaro", "Sequoia", "Shenandoah", "Theodore Roosevelt", "Voyageurs", "White Sands", "Wind Cave", "Yellowstone", "Yosemite", "Zion"
+        ],
+        "labels": [
+          "All parks",
+          "Acadia", "Arches", "Badlands", "Big Bend", "Biscayne", "Black Canyon of the Gunnison", "Bryce Canyon", "Canyonlands", "Capitol Reef", "Carlsbad Caverns", "Channel Islands", "Congaree", "Crater Lake", "Cuyahoga Valley", "Death Valley", "Dry Tortugas", "Everglades", "Gateway Arch", "Glacier", "Grand Canyon", "Grand Teton", "Great Basin", "Great Sand Dunes", "Great Smoky Mountains", "Guadalupe Mountains", "Hot Springs", "Indiana Dunes", "Isle Royale", "Joshua Tree", "Kings Canyon", "Lassen Volcanic", "Mammoth Cave", "Mesa Verde", "Mount Rainier", "North Cascades", "Olympic", "Petrified Forest", "Pinnacles", "Redwood", "Rocky Mountain", "Saguaro", "Sequoia", "Shenandoah", "Theodore Roosevelt", "Voyageurs", "White Sands", "Wind Cave", "Yellowstone", "Yosemite", "Zion"
+        ],
+        "name": "Park: "
+      }
     }
+  ],
+  "transform": [
+    {"filter": {"param": "camping_type"}},
+    {"filter": "datum.Year == year_slider"},
+    {"filter": "park_select == null || datum.ShortName == park_select"},
+    {
+      "aggregate": [{"op": "sum", "field": "Campers", "as": "campers_sum"}],
+      "groupby": ["Camping Type", "Year", "Month", "Date"]
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Month",
+      "type": "temporal",
+      "timeUnit": "month",
+      "title": ""
+    },
+    "y": {
+      "field": "campers_sum",
+      "type": "quantitative",
+      "title": "Campers",
+      "axis": {"format": ".2s"}
+    },
+    "color": {
+      "field": "Camping Type",
+      "title": "Camping type",
+      "scale": {
+        "domain": ["Backcountry", "RV", "Tent"],
+        "range": ["#1b9e77", "#666666", "#d95f02"]
+      }
+    },
+    "tooltip": [
+      {"field": "Date", "timeUnit": "yearmonth", "format": "%B %Y", "title": "Month"},
+      {"field": "Camping Type", "title": "Camping type"},
+      {"field": "campers_sum", "title": "Campers", "format": ","}
+    ]
   }
+}
