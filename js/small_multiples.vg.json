@@ -5,7 +5,7 @@
   "columns": 2,
   "spec": {
     "projection": {"type": "albersUsa"},
-    "width": 250,
+    "width": 290,
     "height": 250,
     "layer": [
       {
