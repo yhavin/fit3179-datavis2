@@ -12,45 +12,47 @@
   
 </head>
 <body>
+
+
   
-<div id="bump_chart"></div>
-<br>
-<br>
+  <div id="bump_chart"></div>
+  <br>
+  <br>
 
-<div id="small_multiples"></div>
-<br>
-<br>
+  <div id="small_multiples"></div>
+  <br>
+  <br>
 
-<div id="stacked_chart"></div>
-<br>
-<br>
+  <div id="stacked_chart"></div>
+  <br>
+  <br>
 
-<div id="timeline"></div>
+  <div id="timeline"></div>
 
-<script type="text/javascript">
+  <script type="text/javascript">
 
-  var spec1 = "js/bump_chart.vg.json";
-  var spec2 = "js/small_multiples.vg.json"
-  var spec3 = "js/stacked_chart.vg.json"
-  var spec4 = "js/timeline.vg.json"
+    var spec1 = "js/bump_chart.vg.json";
+    var spec2 = "js/small_multiples.vg.json"
+    var spec3 = "js/stacked_chart.vg.json"
+    var spec4 = "js/timeline.vg.json"
 
-  vegaEmbed('#bump_chart', spec1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+    vegaEmbed('#bump_chart', spec1).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 
-  vegaEmbed('#small_multiples', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+    vegaEmbed('#small_multiples', spec2).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 
-  vegaEmbed('#stacked_chart', spec3).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+    vegaEmbed('#stacked_chart', spec3).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 
-  vegaEmbed('#timeline', spec4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
+    vegaEmbed('#timeline', spec4).then(function(result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
 
-</script>
+  </script>
 
 </body>
 </html>
