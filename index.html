@@ -17,10 +17,13 @@
 
 <body>
   <div class="pure-g">
-    <div class="pure-u-1-6">
+    <!-- Left margin -->
+    <div class="pure-u-1-5">
       <div id="margin"></div>
     </div>
-    <div class="pure-u-2-3">
+
+    <!-- Middle section for content -->
+    <div class="pure-u-3-5">
       <div id="container">
         <div id="nps_logo">
           <img id="nps_img"
@@ -28,30 +31,54 @@
           alt="NPS logo"
           class="center">
         </div>
+
         <div id="title">
           <h2>The State of the Parks</h2>
           <h5>A presentation on the national parks of the contiguous United States</h5>
         </div>
+
         <hr>
+
         <div class="divider"></div>
-        <div id="bump_chart"></div>
-        <br>
-        <br>
+
+        <div id="bump_heading">
+          <h3>Park rankings based on visitors</h3>
+          <h6>Click the legend to highlight</h6>
+        </div>
+
+        <!-- Bump chart grid -->
+        <div class="pure-g">
+          <!-- Chart -->
+          <div class="pure-u-3-4">
+            <div id="bump_chart"></div>
+          </div>
+          <!-- Text -->
+          <div class="pure-u-1-4">
+            <div id="bump_chart_text">
+              <ul class="right_side_text">
+                <li>This bump chart shows only the top 10 parks overall</li>
+                <li>The Great Smoky Mountains has maintained the top rank throughout</li>
+                <li>Yosemite has seen the biggest drop, going from rank 3 to rank 8</li>
+                <li>Acadia has seen the biggest jump, going from rank 10 to rank 6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       
         <div id="small_multiples"></div>
-        <br>
-        <br>
       
         <div id="stacked_chart"></div>
-        <br>
-        <br>
       
         <div id="timeline"></div>
+
       </div>
     </div>
-    <div class="pure-u-1-">
+    
+    <!-- Right margin -->
+    <div class="pure-u-1-5">
       <div id="margin"></div>
     </div>
+  </div>
 
   <script type="text/javascript">
 

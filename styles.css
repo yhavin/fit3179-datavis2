@@ -15,12 +15,12 @@
 }
 
 .divider {
-    height: 30px;
+    height: 0px;
     width: 100%;
 }
 
 hr {
-    margin: 40px;
+    margin: 50px;
     height: 3px!important;
     background-color: var(--npslightbrown)
 }
@@ -36,6 +36,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.marks {
+    font-family: "Rawlinson";
 }
 
 #margin {
@@ -58,8 +62,9 @@ h2 {
 h3 {
     text-align: center;
     font-family: "Rawlinson";
-    font-size: 18px;
-    color: var(--npslightbrown);
+    font-size: 30px;
+    color: var(--npsdarkbrown);
+    margin: 10px
 }
 
 h5 {
@@ -69,4 +74,28 @@ h5 {
     color: var(--npslightbrown);
     margin: 5px;
     margin-bottom: 15px;
+}
+
+h6 {
+    text-align: center;
+    font-family: "Rawlinson";
+    font-size: 14px;
+    color: var(--npslightbrown);
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.right_side_text {
+    margin-right: 20px;
+}
+
+li {
+    font-family: "Frutiger";
+    font-size: 16px;
+    color: var(--npslightbrown);
+    margin-bottom: 15px;
+}
+
+#bump_chart, #small_multiples, #stacked_chart, #timeline {
+    margin-left: 40px;
 }
