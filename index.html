@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <!-- Import Vega & Vega-Lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
   
-  
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-  
+
+  <!-- Pure CSS library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
+
 </head>
+
 <body>
-
-  <div id="title">
-    <h1>The State of the Parks</h1>
-    <h3>A closer look at the US National Parks</h3>
-    <h5>A visualisation by Yakir Havin</h5>
-  </div>
-
-  <div id="nps_logo">
-    <img src="https://github.com/yyhav1/fit3179_datavis2/blob/main/images/nps_logo.png?raw=true" 
-         alt="NPS logo"
-        width="70"/>
-  </div>
-  
-  <div id="bump_chart"></div>
-  <br>
-  <br>
-
-  <div id="small_multiples"></div>
-  <br>
-  <br>
-
-  <div id="stacked_chart"></div>
-  <br>
-  <br>
-
-  <div id="timeline"></div>
+  <div class="pure-g">
+    <div class="pure-u-1-6">
+      <div id="margin"></div>
+    </div>
+    <div class="pure-u-2-3">
+      <div id="container">
+        <div id="nps_logo">
+          <img id="nps_img"
+          src="https://github.com/yyhav1/fit3179_datavis2/blob/main/images/nps_logo.png?raw=true" 
+          alt="NPS logo"
+          class="center">
+        </div>
+        <div id="title">
+          <h2>The State of the Parks</h2>
+          <h5>A presentation on the national parks of the contiguous United States</h5>
+        </div>
+        <hr>
+        <div class="divider"></div>
+        <div id="bump_chart"></div>
+        <br>
+        <br>
+      
+        <div id="small_multiples"></div>
+        <br>
+        <br>
+      
+        <div id="stacked_chart"></div>
+        <br>
+        <br>
+      
+        <div id="timeline"></div>
+      </div>
+    </div>
+    <div class="pure-u-1-">
+      <div id="margin"></div>
+    </div>
 
   <script type="text/javascript">
 

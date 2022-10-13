@@ -1,0 +1,72 @@
+:root {
+    --npslightbrown: #c46c39;
+    --npsdarkbrown: #98542c;
+    --npsdarkgreen: #2d4b1e;
+}
+
+@font-face {
+    font-family: "Rawlinson";
+    src: url('fonts/Rawlinson Bold.otf')
+}
+
+@font-face {
+    font-family: "Frutiger";
+    src: url('fonts/Frutiger.ttf');
+}
+
+.divider {
+    height: 30px;
+    width: 100%;
+}
+
+hr {
+    margin: 40px;
+    height: 3px!important;
+    background-color: var(--npslightbrown)
+}
+
+#nps_img {
+    padding-top: 25px;
+    padding: 25px;
+    width: 45px;;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#margin {
+    background-color: white!important;
+}
+
+#container {
+    background-color: #fef8f5;
+    align-self: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Rawlinson";
+    color: var(--npsdarkbrown);
+    font-size: 80px;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Rawlinson";
+    font-size: 18px;
+    color: var(--npslightbrown);
+}
+
+h5 {
+    text-align: center;
+    font-family: "Rawlinson";
+    font-size: 18px;
+    color: var(--npslightbrown);
+    margin: 5px;
+    margin-bottom: 15px;
+}

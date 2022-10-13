@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": null,
   "width": 800,
   "height": 450,
-  "title": "Park rankings over time",
   "params": [
     {
       "name": "park_select",

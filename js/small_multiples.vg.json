@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Seasonal comparison of visitors", "dx": 300},
+  "background": null,
   "repeat": ["Summer", "Autumn", "Winter", "Spring"],
   "columns": 2,
   "spec": {

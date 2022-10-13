@@ -1,13 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": null,
   "width": 800,
-  "height": 375,
-  "title": {
-    "text": "Timeline of park inception",
-    "subtitle": "(Some lines have been spaced for readability)",
-    "subtitleFontSize": 10,
-    "subtitlePadding": 5
-  },
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkTimeline.csv"
   },
