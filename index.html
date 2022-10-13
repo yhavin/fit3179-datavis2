@@ -16,14 +16,15 @@
 </head>
 
 <body>
+
   <div class="pure-g">
     <!-- Left margin -->
-    <div class="pure-u-1-5">
+    <div class="pure-u-1-6">
       <div id="margin"></div>
     </div>
 
     <!-- Middle section for content -->
-    <div class="pure-u-3-5">
+    <div class="pure-u-2-3">
       <div id="container">
         <div id="nps_logo">
           <img id="nps_img"
@@ -49,7 +50,7 @@
         <div class="pure-g">
           <!-- Chart -->
           <div class="pure-u-3-4">
-            <div id="bump_chart"></div>
+            <div id="bump_chart" style="width: 100%"></div>
           </div>
           <!-- Text -->
           <div class="pure-u-1-4">
@@ -87,7 +88,7 @@
           </div>
           <!-- Chart -->
           <div class="pure-u-3-4">
-            <div id="small_multiples"></div>
+            <div id="small_multiples"></div> <!-- Cannot set responsive container width for Vega-Lite repeat elements -->
           </div>
         </div>
 
@@ -103,7 +104,7 @@
         <div class="pure-g">
           <!-- Chart -->
           <div class="pure-u-3-4">
-            <div id="stacked_chart"></div>
+            <div id="stacked_chart" style="width: 100%"></div>
           </div>
           <!-- Text -->
           <div class="pure-u-1-4">
@@ -142,7 +143,7 @@
           </div>
           <!-- Chart -->
           <div class="pure-u-3-4">
-            <div id="timeline"></div>
+            <div id="timeline" style="width: 100%"></div>
           </div>
         </div>
 
@@ -153,10 +154,11 @@
     </div>
     
     <!-- Right margin -->
-    <div class="pure-u-1-5">
+    <div class="pure-u-1-6">
       <div id="margin"></div>
     </div>
   </div>
+
 
   <script type="text/javascript">
 

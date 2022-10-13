@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "background": "#fef8f5",
-  "width": 650,
+  "width": "container",
   "height": 400,
   "data": {
       "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkCampingLong.csv"
   },
-  "mark": {"type": "bar", "width": 45, "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "mark": {"type": "bar", "width": 38, "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
   "params": [
     {
       "name": "camping_type",
