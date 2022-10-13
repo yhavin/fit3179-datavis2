@@ -31,9 +31,8 @@
 
   var spec1 = "js/bump_chart.vg.json";
   var spec2 = "js/small_multiples.vg.json"
-  var spec3 = "js/bar_chart_2.vg.json"
-  var spec4 = "js/stacked_chart.vg.json"
-  var spec5 = "js/timeline.vg.json"
+  var spec3 = "js/stacked_chart.vg.json"
+  var spec4 = "js/timeline.vg.json"
 
   vegaEmbed('#bump_chart', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -43,15 +42,11 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#bar_chart', spec3).then(function(result) {
+  vegaEmbed('#stacked_chart', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
-  vegaEmbed('#stacked_chart', spec4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-  vegaEmbed('#timeline', spec5).then(function(result) {
+  vegaEmbed('#timeline', spec4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
