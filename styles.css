@@ -6,16 +6,21 @@
 
 @font-face {
     font-family: "Rawlinson";
-    src: url('fonts/Rawlinson Bold.otf')
+    src: url('fonts/Rawlinson Bold.otf');
 }
 
 @font-face {
-    font-family: "Frutiger";
-    src: url('fonts/Frutiger.ttf');
+    font-family: "NationalPark-Regular";
+    src: url('fonts/NationalPark-Regular.otf');
+}
+
+@font-face {
+    font-family: "NationalPark-Bold";
+    src: url('fonts/NationalPark-Bold.otf');
 }
 
 .divider {
-    height: 0px;
+    height: 70px;
     width: 100%;
 }
 
@@ -55,16 +60,16 @@ h2 {
     text-align: center;
     font-family: "Rawlinson";
     color: var(--npsdarkbrown);
-    font-size: 80px;
+    font-size: 90px;
     margin: 10px;
 }
 
 h3 {
     text-align: center;
     font-family: "Rawlinson";
-    font-size: 30px;
+    font-size: 40px;
     color: var(--npsdarkbrown);
-    margin: 10px
+    margin: 5px
 }
 
 h5 {
@@ -78,7 +83,7 @@ h5 {
 
 h6 {
     text-align: center;
-    font-family: "Rawlinson";
+    font-family: "NationalPark-Regular";
     font-size: 14px;
     color: var(--npslightbrown);
     margin: 0px;
@@ -86,11 +91,15 @@ h6 {
 }
 
 .right_side_text {
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.left_side_text {
+    margin-left: 20px;
 }
 
 li {
-    font-family: "Frutiger";
+    font-family: "NationalPark-Regular";
     font-size: 16px;
     color: var(--npslightbrown);
     margin-bottom: 15px;
@@ -98,4 +107,31 @@ li {
 
 #bump_chart, #small_multiples, #stacked_chart, #timeline {
     margin-left: 40px;
+}
+
+.weighted_text {
+    font-family: "NationalPark-Bold";
+}
+
+.backcountry_text {
+    font-family: "NationalPark-Bold";
+    color: #1b9e77;
+}
+
+.rv_text {
+    font-family: "NationalPark-Bold";
+    color: #666666;   
+}
+
+.tent_text {
+    font-family: "NationalPark-Bold";
+    color: #d95f02;   
+}
+
+label, select, input {
+    font-family: "NationalPark-Regular";
+    color: var(--npslightbrown);
+    background-color: #fef8f5;
+    border-color: var(--npslightbrown);
+    margin: 20px;
 }

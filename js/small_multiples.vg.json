@@ -5,8 +5,8 @@
   "columns": 2,
   "spec": {
     "projection": {"type": "albersUsa"},
-    "width": 400,
-    "height": 300,
+    "width": 300,
+    "height": 250,
     "layer": [
       {
         "data": {
@@ -79,8 +79,8 @@
           "type": "text",
           "align": "center",
           "baseline": "bottom",
-          "x": 200,
-          "y": 20
+          "x": 150,
+          "y": 25
         },
         "encoding": {"text": {"field": {"repeat": "repeat"}}}
       }

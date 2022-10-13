@@ -34,15 +34,14 @@
 
         <div id="title">
           <h2>The State of the Parks</h2>
-          <h5>A presentation on the national parks of the contiguous United States</h5>
+          <h5>A presentation on the national parks of the contiguous United States, 2012-2021</h5>
         </div>
 
         <hr>
 
-        <div class="divider"></div>
-
+        <!-- Bump chart heading -->
         <div id="bump_heading">
-          <h3>Park rankings based on visitors</h3>
+          <h3>Which park gets the most visitors?</h3>
           <h6>Click the legend to highlight</h6>
         </div>
 
@@ -57,20 +56,97 @@
             <div id="bump_chart_text">
               <ul class="right_side_text">
                 <li>This bump chart shows only the top 10 parks overall</li>
-                <li>The Great Smoky Mountains has maintained the top rank throughout</li>
-                <li>Yosemite has seen the biggest drop, going from rank 3 to rank 8</li>
-                <li>Acadia has seen the biggest jump, going from rank 10 to rank 6</li>
+                <li>The <span style="color: #54a24b; font-family: NationalPark-Bold">Great Smoky Mountains</span> has maintained the top rank throughout</li>
+                <li><span style="color: #439894; font-family: NationalPark-Bold">Yosemite</span> has seen the biggest drop, going from rank 3 to rank 8</li>
+                <li><span style="color: #4c78a8; font-family: NationalPark-Bold">Acadia</span> has seen the biggest jump, going from rank 10 to rank 6</li>
               </ul>
             </div>
           </div>
         </div>
-      
-        <div id="small_multiples"></div>
-      
-        <div id="stacked_chart"></div>
-      
-        <div id="timeline"></div>
 
+        <div class="divider"></div>
+
+        <!-- Small multiples heading -->
+        <div id="small_multiples_heading">
+          <h3>Which season gets the most visitors?</h3>
+          <h6>Visitors are aggregated across all years</h6>
+        </div>
+
+        <!-- Small multiples grid -->
+        <div class="pure-g">
+          <!-- Text -->
+          <div class="pure-u-1-4">
+            <div id="bump_chart_text">
+              <ul class="left_side_text">
+                <li>As expected, <span class="weighted_text">Summer</span> has the most visitors, and <span class="weighted_text">Winter</span> the fewest</li>
+                <li>It is interesting that <span class="weighted_text">Autumn</span> has more visitors than <span class="weighted_text">Spring</span>; this may be due to more public holidays occurring in Autumn</li>
+                <li>The <span class="weighted_text">Great Smoky Mountains</span> appears to be the only highly visited park on the East Coast, while the West Coast boasts many</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Chart -->
+          <div class="pure-u-3-4">
+            <div id="small_multiples"></div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Stacked chart heading -->
+        <div id="stacked_heading">
+          <h3>How do visitors like to camp?</h3>
+          <h6>Click the legend and use the menus to filter</h6>
+        </div>
+
+        <!-- Stacked chart grid -->
+        <div class="pure-g">
+          <!-- Chart -->
+          <div class="pure-u-3-4">
+            <div id="stacked_chart"></div>
+          </div>
+          <!-- Text -->
+          <div class="pure-u-1-4">
+            <div id="stacked_chart_text">
+              <ul class="right_side_text">
+                <li><span class="backcountry_text">Backcountry</span> camping means tent camping away from designated campsites, with no facilities</li>
+                <li>While <span class="tent_text">Tent</span> camping is typically the most popular, it depends on the park (for example, Hot Springs has a high proportion of <span class="rv_text">RV</span> camping)</li>
+                <li>We can see a similar trend as above, where <span class="weighted_text">Summer</span> months usually have the highest overall camping numbers</li>
+                <li><span class="weighted_text">April 2020</span> had virtually no camping (or visitation) due to COVID-19</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Timeline heading -->
+        <div id="timeline_heading">
+          <h3>When was each park established?</h3>
+          <h6>Click the legend to highlight</h6>
+        </div>
+
+        <!-- Timeline grid -->
+        <div class="pure-g">
+          <!-- Text -->
+          <div class="pure-u-1-4">
+            <div id="bump_chart_text">
+              <ul class="left_side_text">
+                <li>Some lines have been slightly spaced to increase readability (use tooltips for exact years)</li>
+                <li><span class="weighted_text">Yellowstone</span> was by far the earliest park established</li>
+                <li>In general, the <span style="color: #72b7b2; font-family: NationalPark-Bold">Pacific West</span> parks were established quite early, whereas the <span style="color: #54a24b; font-family: NationalPark-Bold">Southeast</span> parks were later</li>
+                <li>The years <span class="weighted_text">1931-1939</span> saw the establishment of nine parks</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Chart -->
+          <div class="pure-u-3-4">
+            <div id="timeline"></div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <p style="margin-left: 50px; font-family: NationalPark-Regular; font-size: 9px; color: var(--npslightbrown)">Sources: National Park Service, Wikipedia</p>
+        <div class="divider" style="height: 30px"></div>
       </div>
     </div>
     
