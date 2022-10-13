@@ -10,23 +10,21 @@
     "layer": [
       {
         "data": {
-            "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/js/ne_50m_admin_1_states_provinces.json",
-            "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
+          "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/js/ne_50m_admin_1_states_provinces.json",
+          "format": {
+            "type": "topojson",
+            "feature": "ne_50m_admin_1_states_provinces"
+          }
         },
-        "mark": {
-            "type": "geoshape",
-            "fill": "#f0f2f5",
-            "stroke": "darkgrey"
-        }
+        "mark": {"type": "geoshape", "fill": "#f0f2f5", "stroke": "darkgrey"}
       },
       {
-        "data": {"url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeasonAvg.csv"},
+        "data": {
+          "url": "https://raw.githubusercontent.com/yyhav1/fit3179_datavis2/main/data/nationalParkSeasonAvg.csv"
+        },
         "mark": {"type": "circle", "stroke": "black", "fill": "#1b9e77"},
         "params": [
-          {
-            "name": "highlight",
-            "select": {"type": "point", "on": "mouseover"}
-          },
+          {"name": "highlight", "select": {"type": "point", "on": "mouseover"}},
           {"name": "select", "select": "point"}
         ],
         "encoding": {
@@ -44,32 +42,25 @@
             "title": "Visitors"
           },
           "strokeWidth": {
-            "condition": {
-                "param": "select",
-                "empty": false,
-                "value": 2
-              },
+            "condition": {"param": "select", "empty": false, "value": 2},
             "value": 0
           },
           "fillOpacity": {
-            "condition": {
-              "param": "select",
-              "empty": true,
-              "value": 1
-            },
+            "condition": {"param": "select", "empty": true, "value": 1},
             "value": 0.6
           },
           "fill": {
-            "condition": {
-              "param": "select",
-              "value": "#1b9e77"
-            },
+            "condition": {"param": "select", "value": "#1b9e77"},
             "value": "grey"
           },
           "tooltip": [
             {"field": "ShortName", "title": "Park"},
             {"field": "State"},
-            {"field": {"repeat": "repeat"}, "title": "Visitors", "format": ".2s"}
+            {
+              "field": {"repeat": "repeat"},
+              "title": "Visitors",
+              "format": ".2s"
+            }
           ]
         }
       },
