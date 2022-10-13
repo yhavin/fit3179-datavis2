@@ -54,7 +54,8 @@
       "field": "Month",
       "type": "temporal",
       "timeUnit": "month",
-      "title": ""
+      "title": "",
+      "axis": {"grid": false}
     },
     "y": {
       "field": "campers_sum",

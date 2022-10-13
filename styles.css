@@ -105,7 +105,12 @@ li {
     margin-bottom: 15px;
 }
 
-#bump_chart, #small_multiples, #stacked_chart, #timeline {
+#timeline {
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+#bump_chart, #stacked_chart, #small_multiples {
     margin-left: 40px;
 }
 
