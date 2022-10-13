@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "background": null,
+  "background": "#fef8f5",
   "repeat": ["Summer", "Autumn", "Winter", "Spring"],
   "columns": 2,
   "spec": {
