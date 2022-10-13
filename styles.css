@@ -19,6 +19,40 @@
     src: url('fonts/NationalPark-Bold.otf');
 }
 
+h2 {
+    text-align: center;
+    font-family: "Rawlinson";
+    color: var(--npsdarkbrown);
+    font-size: 90px;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Rawlinson";
+    font-size: 40px;
+    color: var(--npsdarkbrown);
+    margin: 5px
+}
+
+h5 {
+    text-align: center;
+    font-family: "Rawlinson";
+    font-size: 18px;
+    color: var(--npslightbrown);
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    text-align: center;
+    font-family: "NationalPark-Regular";
+    font-size: 14px;
+    color: var(--npslightbrown);
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
 .divider {
     height: 70px;
     width: 100%;
@@ -56,39 +90,6 @@ hr {
     align-self: center;
 }
 
-h2 {
-    text-align: center;
-    font-family: "Rawlinson";
-    color: var(--npsdarkbrown);
-    font-size: 75px;
-    margin: 10px;
-}
-
-h3 {
-    text-align: center;
-    font-family: "Rawlinson";
-    font-size: 40px;
-    color: var(--npsdarkbrown);
-    margin: 5px
-}
-
-h5 {
-    text-align: center;
-    font-family: "Rawlinson";
-    font-size: 18px;
-    color: var(--npslightbrown);
-    margin: 5px;
-    margin-bottom: 15px;
-}
-
-h6 {
-    text-align: center;
-    font-family: "NationalPark-Regular";
-    font-size: 14px;
-    color: var(--npslightbrown);
-    margin: 0px;
-    margin-bottom: 15px;
-}
 
 .right_side_text {
     margin-right: 30px;
