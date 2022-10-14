@@ -150,3 +150,11 @@ label, select, input {
     border-color: var(--npslightbrown);
     margin: 20px;
 }
+
+.vega-bind {
+    margin-top: 10px;
+}
+
+#stacked_chart > div > form > div:nth-child(1) > label > span:nth-child(3) {
+    margin-left: 7px;
+}
